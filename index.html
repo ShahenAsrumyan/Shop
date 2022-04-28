@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Home</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <link rel="shortcut icon" href="images/tatupap.png" type="image/x-icon">
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/ac375783d4.js"
+      crossorigin="anonymous"
+    ></script>
+    <link href="https://fontawesome.com/v5.15/icons?d=gallery&p=2" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+    />
+
+    <link
+      rel="stylesheet prefetch"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css"
+    />
+  </head>
+  <body style="background-color: #faeee0">
+    <nav
+      class="navbar navbar-light bg-light fixed-top"
+      style="background-color: #f9e4c8 !important"
+    >
+      <div class="container-fluid">
+        <img class="logik" src="images/logik.png" alt="Erorr_logik" />
+        <a class="navbar-brand logotext" href="index.html"
+          >GoldAsrum Handmade</a
+        >
+
+        <div id="wrap">
+          <form action="" autocomplete="on">
+            <input
+              id="search"
+              name="search"
+              type="text"
+              placeholder="What're we looking for ?"
+            /><input id="search_submit" value="Rechercher" type="submit" />
+            <i class="fas fa-search"></i>
+          </form>
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5
+              class="offcanvas-title gradient-border"
+              id="offcanvasNavbarLabel box"
+            >
+              Handmade GoldAsrum
+            </h5>
+            <button
+              type="button"
+              class="btn-close text-reset"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item" style="font-size: 30px">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+
+              <li class="nav-item" style="font-size: 30px">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="offcanvasNavbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  style="font-size: 30px"
+                >
+                  Products
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  style="
+                    background-color: #e6d3d3;
+                    height: 41px;
+                    font-size: 30px;
+                  "
+                  aria-labelledby="offcanvasNavbarDropdown"
+                >
+                  <li>
+                    <a class="dropdown-item" href="shopall.html"
+                      >Shop all&#9825;</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="shirts.html"
+                      >Shirts&#9825;</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="keychains.html"
+                      >Initial frames&#9825;</a
+                    >
+                  </li>
+
+                  <li>
+                    <a class="dropdown-item" href="earrings.html"
+                      >Earrings&#9825;</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="bags.html"
+                      >New Category|Bags&#9825;</a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="swiper-container main-slider loading">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <figure
+            class="slide-bgimg"
+            style="background-image: url(./images/123.jpg)"
+          >
+            <img src="images/6 copy.png" class="entity-img" />
+          </figure>
+          <div class="content">
+            <p class="title">Hand Embroidery</p>
+            <span class="caption"
+              >Embroidery is the craft of decorating fabric or other materials
+              using a needle to apply thread or yarn. Embroidery may also
+              incorporate other materials such as pearls, beads, quills, and
+              sequins. In modern days, embroidery is usually seen on caps, hats,
+              coats, overlays, blankets, dress shirts, denim, dresses,
+              stockings, and golf shirts.
+            </span>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <figure
+            class="slide-bgimg"
+            style="background-image: url(./images/uuui.jpg)"
+          ></figure>
+          <div class="content">
+            <p class="title">Hand Painted</p>
+            <span class="caption"
+              >Painting is the practice of applying paint, pigment, color or
+              other medium to a solid surface (called the "matrix" or "
+              support").[1] The medium is commonly applied to the base with a
+              brush, but other implements, such as knives, sponges, and
+              airbrushes, can be used.</span
+            >
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <figure
+            class="slide-bgimg"
+            style="background-image: url(./images/mek.jpg)"
+          >
+            <img
+              src="https://drive.google.com/uc?export=view&id=0B_koKn2rKOkLRml1b3B6eXVqQ2s"
+              class="entity-img"
+            />
+          </figure>
+
+          <div class="content">
+            <p class="title">Hand Made Earrings</p>
+            <span class="caption"
+              >Handmade jewelry (or handmade jewellery or handcrafted jewellery)
+              is jewelry which has been assembled and formed by hand rather than
+              through the use of machines.</span
+            >
+          </div>
+        </div>
+      </div>
+
+      <!-- Thumbnail navigation -->
+      <div class="swiper-container1 nav-slider"></div>
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev swiper-button-white"></div>
+      <div class="swiper-button-next swiper-button-white"></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js"></script>
+
+    <main id="main1">
+      <div class="container-fluid productners">
+        <section id="sec1">
+          <div class="product1">
+            <p class="shirts">Shirts</p>
+          </div>
+          <div class="product2">
+            <p class="bags">Keychains</p>
+          </div>
+          <div class="product3">
+            <p class="initialframes">Initial frames</p>
+          </div>
+          <div class="product4">
+            <p class="earrings">Earrings</p>
+          </div>
+        </section>
+        <section id="sec2">
+          <img id="nkarrss" src="images/newcolection.jpg" alt="" />
+        </section>
+        <p id="bestsellers">BEST SELLERS</p>
+
+        <section id="sec3">
+          <div class="prod1">
+            <div class="prodnkar1">
+              <img
+                src="images/1productakanj3.png"
+                style="
+                  width: 120%;
+                  position: relative;
+                  bottom: 50px;
+                  right: 60px;
+                "
+                alt=""
+              />
+            </div>
+            <p class="prodtext">Fall | Polymer cley earring</p>
+            <p class="price">$20.00</p>
+          </div>
+          <div class="prod2">
+            <div class="prodnkar2">
+              <img
+                src="images/shorik.png"
+                style="
+                  width: 95%;
+                  padding-bottom: 100px;
+                  position: relative;
+                  left: 10px;
+                  top: 50px;
+                "
+                alt=""
+              />
+            </div>
+            <p class="prodtext">Wild Flowers</p>
+            <p class="price">$35.00</p>
+          </div>
+          <div class="prod3">
+            <div class="prodnkar3">
+              <img
+                src="images/sunka copy.png"
+                style="
+                  width: 95%;
+                  padding-bottom: 100px;
+                  position: relative;
+                  left: 10px;
+                  top: 50px;
+                "
+                alt=""
+              />
+            </div>
+            <p class="prodtext">Initial Bag</p>
+            <p class="price">$35.00</p>
+          </div>
+          <div class="prod4">
+            <div class="prodnkar4">
+              <img
+                src="images/ttarr.png"
+                style="
+                  width: 95%;
+                  padding-bottom: 100px;
+                  position: relative;
+                  left: 10px;
+                  top: 50px;
+                "
+                alt=""
+              />
+            </div>
+            <p class="prodtext">Armenian Letter</p>
+            <p class="price">$40.00</p>
+          </div>
+        </section>
+
+        <section id="sec34">
+          <img
+            src="images/polymer.png"
+            alt=""
+            style="width: 100%; height: 100%"
+          />
+        </section>
+        <section id="sec4">
+          <div
+            id="instagramm123"
+            style="
+              width: 100%;
+              height: 100px;
+              margin-bottom: 10px;
+              display: flex;
+            "
+          >
+            <div
+              class="klorr"
+              style="width: 50px; height: 50px; border-radius: 50%"
+            >
+              <a href="https://www.instagram.com/goldasrum_handmade/"
+                ><img
+                  style="
+                    width: 200%;
+                    border-radius: 50%;
+                    border: 2px solid rgb(0, 0, 0);
+                    margin-left: 10px;
+                  "
+                  src="images/lozgik.jpg"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div class="texterrrr">
+              <p
+                class="official"
+                style="
+                  font-size: 20px;
+                  color: rgb(0, 0, 0);
+                  margin-left: 65px;
+                  margin-top: 20px;
+                "
+              >
+                Handmade GoldAsrum
+              </p>
+              <p
+                class="xeshteg"
+                style="
+                  font-size: 17px;
+                  color: black;
+                  margin-left: 65px;
+                  margin-top: 10px;
+                "
+              >
+                Share your pictures with us #handmadegoldasrumyan
+              </p>
+            </div>
+          </div>
+          <div id="nkarner1">
+            <a href="https://www.instagram.com/p/CT-QTG0o-BW/"
+              ><div class="nkarner1"></div
+            ></a>
+            <a href="https://www.instagram.com/p/CJoCSHfHjDn/">
+              <div class="nkarner2"></div
+            ></a>
+            <a href="https://www.instagram.com/p/CJFtg99HLUq/">
+              <div class="nkarner3"></div
+            ></a>
+            <a href="https://www.instagram.com/p/CNk_oPYHIqF/"
+              ><div class="nkarner4"></div
+            ></a>
+          </div>
+          <div id="nkarner2">
+            <a href="https://www.instagram.com/p/CQb9GrqHRBe/">
+              <div class="nkarnerr1"></div
+            ></a>
+            <a href="https://www.instagram.com/p/CM-X5nAncpc/">
+              <div class="nkarnerr2"></div
+            ></a>
+            <a href="https://www.instagram.com/p/CMZ8-PTnmmd/">
+              <div class="nkarnerr3"></div
+            ></a>
+            <a href="https://www.instagram.com/p/CLq7F8wH1Ub/">
+              <div class="nkarnerr4"></div
+            ></a>
+          </div>
+          <a href="https://www.instagram.com/goldasrum_handmade/"
+            ><input type="text" /><i
+              class="fa fa-instagram"
+              style="
+                margin-top: 10px;
+                margin-left: 29%;
+                text-align: left;
+                padding: 8px;
+                font-size: 20px;
+                color: white;
+                border-radius: 4px;
+                width: 170px;
+                height: 35px;
+                background: rgb(150, 124, 124);
+              "
+            >
+              <p
+                style="
+                  font-size: 15px;
+                  margin-left: 20px;
+                  position: relative;
+                  bottom: 18px;
+                  color: white;
+                "
+              >
+                Follow on Instagram
+              </p></i
+            ></a
+          >
+        </section>
+        <section id="sec5">
+          <div id="ajhatvac" style="height: 500px; width: 600px">
+            <h3
+              class="followalong"
+              style="
+                font-size: 50px;
+                text-align: center;
+                font-family: 'Lato', Arial, sans-serif;
+                margin-top: 25px;
+              "
+            >
+              Follow Along
+            </h3>
+            <p style="font-size: 22px; text-align: center; margin-top: 35px">
+              Stay in the loop with the latest specials and sales.
+            </p>
+            <p style="font-size: 22px; text-align: center; margin-top: 25px">
+              Be the first to hear about our promotions.
+            </p>
+            <input
+              type="email"
+              placeholder="Email"
+              value=""
+              name="EMAIL"
+              class="required email"
+              id="mce-EMAIL"
+              style="
+                background: rgb(160, 136, 122);
+                display: block;
+                padding: 10px 8px;
+                border: none;
+                color: white;
+                margin-bottom: 8px;
+                min-width: 260px;
+                width: 70%;
+                margin: 12px auto;
+              "
+            />
+            <input
+              type="email"
+              placeholder="NAME"
+              value=""
+              name="EMAIL"
+              class="required email"
+              id="mce-EMAIL"
+              style="
+                background: rgb(160, 136, 122);
+                display: block;
+                padding: 10px 8px;
+                border: none;
+                margin-bottom: 8px;
+                min-width: 260px;
+                width: 70%;
+                margin: 12px auto;
+              "
+            />
+           <a style="text-decoration: none;" href="https://www.instagram.com/goldasrum_handmade/"> <input
+              type="button"
+              placeholder="text"
+              value="SUBSCRIBE"
+              name="EMAIL"
+              class="required submit"
+              id="mce-submit"
+              style="
+                background: #be9f8d;
+                display: block;
+                color: white;
+                padding: 10px 8px;
+                border: none;
+                width: 71%;
+                height: 50px;
+                margin: 12px auto;
+                border-radius: 51px;
+              "
+            /></a>
+            <div class="iconsss">
+              <a href="#"><i class="fa fa-facebook"></i></a>
+              <a href="https://www.instagram.com/goldasrum_handmade/"
+                ><i
+                  style="font-size: 30px; position: relative; left: 150px"
+                  class="fa fa-instagram"
+                ></i
+              ></a>
+              <a href="#"><i class="fab fa-tiktok"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+          <div id="dzaxhatvac">
+            <p class="contact">Contact Info</p>
+            <input
+              type="name"
+              placeholder="Name"
+              value=""
+              name="name"
+              class="namecontact"
+              id="mce-Name"
+              style="
+                background: rgb(247, 243, 239);
+                display: block;
+                padding: 10px 8px;
+                height: 50px;
+                border: none;
+                color: rgb(0, 0, 0);
+                min-width: 260px;
+                width: 70%;
+                margin: 30px auto;
+              "
+            />
+            <input
+              type="email"
+              placeholder="Email"
+              value=""
+              name="email"
+              id="mce-email"
+              style="
+                background: rgb(247, 243, 239);
+                display: block;
+                padding: 10px 8px;
+                height: 50px;
+                border: none;
+                color: rgb(0, 0, 0);
+                min-width: 260px;
+                width: 70%;
+                margin: 10px auto;
+              "
+            />
+            <input
+              type="message"
+              placeholder="Message"
+              value=""
+              name="message"
+              id="mce-message"
+              style="
+                background: rgb(247, 243, 239);
+                display: block;
+                padding: 10px 8px;
+                height: 100px;
+                border: none;
+                color: rgb(0, 0, 0);
+                min-width: 260px;
+                width: 70%;
+                margin: 30px auto;
+              "
+            />
+            <input
+              type="button"
+              name="submit"
+              placeholder="submit"
+              value="SUBSCRIBE"
+              style="
+                background: #be9f8d;
+                display: block;
+                color: white;
+                padding: 10px 8px;
+                border: none;
+                width: 71%;
+                height: 50px;
+                margin: 12px auto;
+                border-radius: 51px;
+              "
+            />
+          </div>
+        </section>
+        <div class="footer-dark">
+          <footer>
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-6 col-md-3 item">
+                  <h3>Telephone</h3>
+                  <ul>
+                    <li><a href="#">+(374)55-82-11-07</a></li>
+                    <li><a href="#">+(374)98-83-38-81</a></li>
+                    <li>
+                      <img style="width: 35%" src="images/qr-code.png" alt="" />
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-sm-6 col-md-3 item">
+                  <h3>Products</h3>
+                  <ul>
+                    <li><a href="shopall.html">Shop All</a></li>
+                    <li><a href="keychains.html">Keychains</a></li>
+                    <li><a href="shirts.html">Shirts</a></li>
+                    <li><a href="earrings.html">Earrings</a></li>
+                    <li><a href="bags.html">Bags</a></li>
+                  </ul>
+                </div>
+                <div class="col-md-6 item text">
+                  <h3>Goldasrum</h3>
+                  <p>
+                    Praesent sed lobortis mi. Suspendisse vel placerat ligula.
+                    Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam
+                    quis tristique lectus. Aliquam in arcu eget velit pulvinar
+                    dictum vel in justo.
+                  </p>
+                </div>
+                <div class="col item social">
+                  <a href="https://www.instagram.com/goldasrum_handmade/">
+                    <img
+                      class="icons-classs"
+                      src="images/instagram-icon.png"
+                      alt=""
+                    />
+                  </a>
+                  <a href="https://www.facebook.com/goldasrum/"
+                    ><img
+                      class="icons-classs"
+                      src="images/icon-facebook.png"
+                      alt=""
+                    />
+                  </a>
+                  <a href="https://twitter.com/artsakhigirl"
+                    ><img
+                      class="icons-classs"
+                      style="width: 94% !important"
+                      src="images/twiter-icon.png"
+                      alt=""
+                    />
+                  </a>
+                  <a
+                    href="https://www.tiktok.com/@gold_asrum_handmade?_d=secCgYIASAHKAESPgo8%2FovUm9zqR2G3Y1BGRTPZKqregMKLKeGlyXZ7CQTZDzTB0p0FWKHN9HnNZnfue9mYUA3lU%2B%2FE4oVVISpTGgA%3D&language=ru&sec_uid=MS4wLjABAAAAaJdEfRE3nqNTCrW5dl8cem_to8Tq2dOqRnLhoas1_GARcHaOc5uVyKcGRq6pWh_0&sec_user_id=MS4wLjABAAAA8asl_-DWv3B6Dr32ItMBfIe2LqwJ0M4CQxmsKAQqm0FG3RhjBreoXxqh0dbolyEQ&share_app_id=1233&share_author_id=6930498184138359813&share_link_id=5bbb38c5-e0ee-4c5c-814b-dcf97c70f9a9&timestamp=1634246836&u_code=ddjfi61ch9ib79&user_id=6856120501766145030&utm_campaign=client_share&utm_medium=android&utm_source=copy&source=h5_m&_r=1"
+                    ><img
+                      class="icons-classs"
+                      src="images/icon-tiktok.png"
+                      alt=""
+                  /></a>
+                </div>
+              </div>
+              <p class="copyright">ALL RIGHTS RESERVED | © 2021 | GoldAsrum</p>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </main>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>

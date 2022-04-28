@@ -1,0 +1,356 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  width: 100%;
+  height: 100px;
+}
+@import url("https://fonts.googleapis.com/css?family=Arimo");
+@import url(https://raw.github.com/FortAwesome/Font-Awesome/master/docs/assets/css/font-awesome.min.css);
+body {
+  background-color: #faeee0;
+}
+main {
+  margin-top: 100px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  background-color: #faeee0;
+}
+.dropdown-menu li {
+  border-bottom: 1px solid black;
+  background-color: #faeee0;
+}
+.dropdown-menu {
+  position: absolute;
+  z-index: 1000;
+  display: none;
+  min-width: 10rem;
+  padding: 0.5rem 0;
+  margin: 0;
+  font-size: 1rem;
+  color: #212529;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0.25rem;
+  height: 41px;
+  font-size: 32px;
+}
+
+.aboutus {
+  width: 100%;
+  height: 450px;
+
+  color: rgb(0, 0, 0);
+  font-size: 50px;
+  text-align: center;
+}
+.aboutus h1 {
+  font-family: "Lato", Arial, sans-serif;
+  font-weight: 300;
+  position: relative;
+  top: 170px;
+}
+.aboutus h2 {
+  font-family: "Lato", Arial, sans-serif;
+  font-weight: 300;
+  position: relative;
+  top: 200px;
+  font-size: 20px !important;
+  line-height: 2em !important;
+  letter-spacing: 12px !important;
+  font-weight: bold !important;
+  font-family: "Poppins", Arial, sans-serif !important;
+  text-transform: uppercase !important;
+}
+.sec2 {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+}
+.nkarenmas {
+  width: 30%;
+  height: 84%;
+  margin-right: 120px;
+}
+.textenmas {
+  width: 40%;
+  height: 84%;
+}
+.ffb-id-530l432l .ffb-h5-1,
+.ffb-id-530l432l .ffb-h5-1:before,
+.ffb-id-530l432l .ffb-h5-1:after,
+.ffb-id-530l432l .ffb-h5-1:hover,
+.ffb-id-530l432l .ffb-h5-1:focus,
+.ffb-id-530l432l .ffb-h5-1 *,
+.ffb-id-530l432l .ffb-h5-1 *:before,
+.ffb-id-530l432l .ffb-h5-1 *:after,
+.ffb-id-530l432l .ffb-h5-1 *:hover,
+.ffb-id-530l432l .ffb-h5-1 *:focus {
+  font-size: 25px !important;
+}
+.textenmas h5 {
+  font-family: "Sacramento", cursive;
+  font-size: 45px !important;
+  margin-top: 20px;
+}
+.search {
+  width: 70%;
+  position: relative;
+  bottom: 25px;
+  border-radius: 4px;
+  left: 20px;
+  font-size: 20px;
+  color: black;
+  height: 50px;
+  border: black 2px;
+  background-color: rgb(175, 175, 175);
+  transition-duration: 2s;
+}
+.textcorusel h1 {
+  width: 100px;
+  background-color: black;
+  position: relative;
+  bottom: 500px;
+}
+.search:hover {
+  width: 60%;
+  transition: 2s all;
+}
+.navbar-brand {
+  position: relative;
+  right: 21%;
+  font-weight: 600;
+  text-shadow: 1px 1px 1px #b85a71;
+}
+.navbar-light .navbar-brand {
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 27px;
+}
+.navbar {
+  background-color: #ece0e0;
+}
+.contact {
+  font-size: 50px;
+  text-align: center;
+  font-family: "lato", Arial, sans-serif;
+  margin-top: 25px;
+  font-weight: 550;
+}
+#box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 200px;
+  color: white;
+  font-family: "Raleway";
+  font-size: 2.5rem;
+}
+.gradient-border {
+  --borderWidth: 3px;
+  color: black;
+  width: 80%;
+  height: 40px;
+  text-align: center;
+  font-size: 25px;
+  position: relative;
+  border-radius: var(--borderWidth);
+}
+.gradient-border:after {
+  content: "";
+  position: absolute;
+  top: calc(-1 * var(--borderWidth));
+  left: calc(-1 * var(--borderWidth));
+  height: calc(100% + var(--borderWidth) * 2);
+  width: calc(100% + var(--borderWidth) * 2);
+  background: linear-gradient(
+    60deg,
+    #7c7a77,
+    #8a7c79,
+    #b8a8ac,
+    #9f93a1,
+    #7a7f8a,
+    #8a9ea1,
+    #525c5b,
+    #78857b
+  );
+  border-radius: calc(2 * var(--borderWidth));
+  z-index: -1;
+  animation: animatedgradient 5s ease alternate infinite;
+  background-size: 300% 300%;
+}
+.logik {
+  width: 4%;
+}
+.icons-classs {
+  width: 95%;
+  border-radius: 30px;
+  margin-left: 1px;
+  margin-top: 1px;
+}
+
+#wrap {
+  margin: 0px 75px;
+  display: inline-block;
+  position: relative;
+  left: 500px;
+  height: 53px;
+  padding: 0;
+  position: relative;
+}
+
+input[type="text"] {
+  height: 50px;
+  font-size: 24px;
+  display: inline-block;
+  font-family: "Lato";
+  font-weight: 100;
+  border: none;
+  outline: none;
+  color: rgb(0, 0, 0);
+  padding: 3px;
+  padding-right: 60px;
+  width: 0px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: none;
+  z-index: 3;
+  transition: width 0.4s cubic-bezier(0, 0.795, 0, 1);
+  cursor: pointer;
+}
+
+input[type="text"]:focus:hover {
+  border-bottom: 1px solid #bbb;
+}
+
+input[type="text"]:focus {
+  width: 700px;
+  z-index: 1;
+  border-bottom: 1px solid #bbb;
+  cursor: text;
+}
+input[type="submit"] {
+  color: red;
+  float: right;
+  text-indent: -10000px;
+  border: none;
+}
+.fa-search {
+  height: 67px;
+  width: 63px;
+  display: inline-block;
+  font-size: 30px;
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  padding-top: 13px;
+  border: none;
+  transition: opacity 0.4s ease;
+}
+
+input[type="submit"]:hover {
+  opacity: 0.8;
+}
+/*footer*/
+
+.footer-dark {
+  padding: 50px 0;
+  color: #f0f9ff;
+  background-color: #282d32;
+}
+
+.footer-dark h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.footer-dark ul {
+  padding: 0;
+  list-style: none;
+  line-height: 1.6;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.footer-dark ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.6;
+}
+
+.footer-dark ul a:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 767px) {
+  .footer-dark .item:not(.social) {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+}
+
+.footer-dark .item.text {
+  margin-bottom: 36px;
+}
+
+@media (max-width: 767px) {
+  .footer-dark .item.text {
+    margin-bottom: 0;
+  }
+}
+
+.footer-dark .item.text p {
+  opacity: 0.6;
+  margin-bottom: 0;
+}
+
+.footer-dark .item.social {
+  text-align: center;
+}
+
+@media (max-width: 991px) {
+  .footer-dark .item.social {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+.footer-dark .item.social > a {
+  font-size: 20px;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4);
+  margin: 0 8px;
+  color: #fff;
+}
+
+.footer-dark .item.social > a:hover {
+  opacity: 0.9;
+}
+
+.footer-dark .copyright {
+  text-align: center;
+  padding-top: 24px;
+  opacity: 0.3;
+  font-size: 13px;
+  margin-bottom: 0;
+}
+
+/*Addtocart*/
+
